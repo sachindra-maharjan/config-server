@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://discovery-server:8761/eureka
+      defaultZone: http://yeti-discovery-server:8761/eureka
   instance:
     #hostname: service-registry
     prefer-ip-address: true
